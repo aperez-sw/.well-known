@@ -1,0 +1,11 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "TYH2NHBW9A.com.disco.ios.vtex.test",
+        "paths": ["*"]
+      }
+    ]
+  }
+}
