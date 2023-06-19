@@ -7,19 +7,18 @@
     <p>This is an example paragraph. Anything in the <strong>body</strong> tag will appear on the page, just like this <strong>p</strong> tag and its contents.</p>
     <button onclick="openApp()">Abrir la aplicación</button>
 
-    <script>
-      function openApp() {
-        try{
-          window.location.href = 'discouy.disco.com.uy://';
-        } catch {}
-      }
-    </script>
-    <script>
-      window.onload = function() {
-        setTimeout(function() {
-          window.location.href = 'discouy.disco.com.uy://';
-        }, 2000); // Espera 2 segundos antes de abrir la aplicación
-      };
+    <script
+     type='text/javascript'>
+    (function()
+     {
+      var proto = document.location.protocol || 'http:';
+      var node = document.createElement('script');
+      node.type = 'text/javascript';
+      node.async = true;
+      node.src = proto + '//webchat-cls4-dal.i6.inconcertcc.com/v3/click_to_chat?token=1AAC5FFE150E3C70FFB81D9971183473';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(node, s);
+    })();
     </script>
   </body>
 </html>
