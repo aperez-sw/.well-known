@@ -16,15 +16,15 @@
       },
       {
         "appID": "TYH2NHBW9A.com.disco.ios.vtex.test",
-        "paths": ["/", "*/p", "cupones"]
+        "paths": ["/"]
       },
       {
         "appID": "TYH2NHBW9A.com.disco.ios.vtex.uat",
-        "paths": ["/", "*/p", "cupones"]
+        "paths": ["/"]
       },
       {
         "appID": "TYH2NHBW9A.com.disco.ios.vtex",
-        "paths": ["/", "*/p", "cupones"]
+        "paths": ["/"]
       }
     ]
   }
